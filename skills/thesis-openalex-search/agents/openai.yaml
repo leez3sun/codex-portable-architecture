@@ -1,0 +1,4 @@
+interface:
+  display_name: "ResearchPilot — OpenAlex Search"
+  short_description: "Free evidence search via OpenAlex API — no browser, no account (Tier 1)"
+  default_prompt: "Search OpenAlex for peer-reviewed evidence about this research question."

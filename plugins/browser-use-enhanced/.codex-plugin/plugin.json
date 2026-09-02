@@ -1,0 +1,38 @@
+{
+  "name": "browser-use-enhanced",
+  "version": "0.1.0+codex.20260812062338",
+  "description": "Persistent local Chrome automation for Codex, powered by browser-use 0.13.7.",
+  "author": {
+    "name": "Browser Use / local Codex integration",
+    "url": "https://github.com/browser-use/browser-use"
+  },
+  "homepage": "https://github.com/browser-use/browser-use",
+  "repository": "https://github.com/browser-use/browser-use",
+  "license": "MIT",
+  "keywords": [
+    "browser",
+    "automation",
+    "cdp",
+    "mcp",
+    "testing"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Browser Use Enhanced",
+    "shortDescription": "Persistent local Chrome automation for Codex.",
+    "longDescription": "Controls a persistent local Chrome session through Browser Use's token-efficient MCP interface for browsing, form interaction, extraction, screenshots, uploads, and web testing.",
+    "developerName": "Browser Use / local integration",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/browser-use/browser-use",
+    "defaultPrompt": [
+      "Open this site and complete the requested workflow.",
+      "Test this web app and report reproducible failures.",
+      "Extract structured data from this interactive page."
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "scientific-media-studio",
+  "version": "0.1.0+codex.20260811051206",
+  "description": "Local-first tools and skills for scientific figures, posters, image and video editing, preference-guided keyframe iteration, and simulation explainers.",
+  "author": {
+    "name": "Personal Scientific Media Lab"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Scientific Media Studio",
+    "shortDescription": "Create scientific figures, posters, and video locally.",
+    "longDescription": "A zero-subscription, local-first production studio for publication-ready SCI figures, editable posters, scientific image operations, FFmpeg video editing, and accurate simulation explainers.",
+    "developerName": "Personal Scientific Media Lab",
+    "category": "Productivity",
+    "capabilities": [
+      "Scientific figures",
+      "Poster design",
+      "Image editing",
+      "Video editing",
+      "Keyframe preference learning",
+      "Quality assurance"
+    ],
+    "defaultPrompt": [
+      "Create a publication-ready SCI figure from my data.",
+      "Design an editable scientific poster with a distinctive visual system.",
+      "Turn my Abaqus results into a verified scientific explainer video."
+    ],
+    "brandColor": "#0B6E69"
+  }
+}

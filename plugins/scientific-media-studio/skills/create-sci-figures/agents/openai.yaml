@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create SCI Figures"
+  short_description: "Build publication-ready scientific figures"
+  default_prompt: "Use $create-sci-figures to build a publication-ready figure from my data."

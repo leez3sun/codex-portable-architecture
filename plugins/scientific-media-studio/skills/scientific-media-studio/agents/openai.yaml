@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Media Studio"
+  short_description: "Route local scientific media production"
+  default_prompt: "Use $scientific-media-studio to plan a local scientific media workflow."

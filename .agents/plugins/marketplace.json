@@ -1,0 +1,80 @@
+{
+  "name": "codex-portable",
+  "interface": {
+    "displayName": "Codex Portable"
+  },
+  "plugins": [
+    {
+      "name": "abaqus-cae",
+      "source": {
+        "source": "local",
+        "path": "./plugins/abaqus-cae"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "ansys-fluent",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ansys-fluent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "browser-use-enhanced",
+      "source": {
+        "source": "local",
+        "path": "./plugins/browser-use-enhanced"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "scientific-media-studio",
+      "source": {
+        "source": "local",
+        "path": "./plugins/scientific-media-studio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "abaqus-live-bridge",
+      "source": {
+        "source": "local",
+        "path": "./plugins/abaqus-live-bridge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "ansys-workbench",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ansys-workbench"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

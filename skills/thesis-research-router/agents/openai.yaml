@@ -1,0 +1,4 @@
+interface:
+  display_name: "ResearchPilot — Router"
+  short_description: "Orchestrate all 9 ResearchPilot skills — detects tier, routes, falls back automatically"
+  default_prompt: "Run the full ResearchPilot evidence pipeline for this research question."

@@ -1,0 +1,24 @@
+{
+  "width": 1400,
+  "height": 2000,
+  "accent": "#0B6E69",
+  "title": "From Simulation to Scientific Insight",
+  "subtitle": "A reproducible visual narrative for finite-element results",
+  "sections": [
+    {
+      "heading": "Research question",
+      "body": "State the engineering decision and the measurable response being investigated."
+    },
+    {
+      "heading": "Model and evidence",
+      "body": "Summarize geometry, material assumptions, boundary conditions, mesh, and validation evidence."
+    },
+    {
+      "heading": "Result",
+      "body": "Present the strongest quantitative finding with units, uncertainty, and comparison context."
+    }
+  ],
+  "takeaway": "The central result should be understood in one sentence without losing scientific accuracy.",
+  "methods": "Abaqus job, solver settings, deformation scale, extraction script, and post-processing transformations.",
+  "source": "Source: simulation job ID, dataset path, DOI, repository URL, and generation date."
+}

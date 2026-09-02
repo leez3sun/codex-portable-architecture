@@ -1,0 +1,4 @@
+interface:
+  display_name: "Edit Science Media"
+  short_description: "Edit scientific images and video locally"
+  default_prompt: "Use $edit-science-media to edit and verify my scientific media."

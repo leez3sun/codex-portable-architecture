@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Science Video"
+  short_description: "Create accurate scientific explainers locally"
+  default_prompt: "Use $build-science-video to produce a scientific explainer from my simulation."

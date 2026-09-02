@@ -1,0 +1,41 @@
+{
+  "frame": {
+    "width": 1920,
+    "height": 1080,
+    "frame_number": 90,
+    "time_seconds": 3.0
+  },
+  "observed_tags": [
+    "animation:micro-reveal",
+    "layout:balanced"
+  ],
+  "components": [
+    {
+      "id": "abaqus-colorbar",
+      "type": "colorbar",
+      "bbox": [0.88, 0.10, 0.07, 0.72]
+    },
+    {
+      "id": "peak-stress-callout",
+      "type": "annotation",
+      "bbox": [0.58, 0.18, 0.22, 0.12],
+      "foreground": "#FFFFFF",
+      "background": "#172033"
+    },
+    {
+      "id": "simulation-time",
+      "type": "timestamp",
+      "bbox": [0.05, 0.89, 0.18, 0.06],
+      "foreground": "#172033",
+      "background": "#FFFFFF"
+    }
+  ],
+  "scientific": {
+    "legend_visible": true,
+    "units_visible": true,
+    "timestamp_meaning_visible": true,
+    "solver_frame_modified": false,
+    "deformation_scale": "1.0x",
+    "source": "Abaqus solver export"
+  }
+}

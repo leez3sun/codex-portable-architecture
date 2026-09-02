@@ -1,0 +1,23 @@
+{
+  "name": "ansys-workbench",
+  "version": "0.1.0",
+  "description": "Run and inspect local ANSYS Workbench and Mechanical automation through a portable MCP package.",
+  "author": {
+    "name": "Local ANSYS Automation"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Ansys Workbench",
+    "shortDescription": "Drive Workbench and Mechanical workflows.",
+    "longDescription": "Portable local MCP tooling for Workbench journals, Mechanical queue/socket bridges, model setup, meshing, solves, and evidence export.",
+    "developerName": "Local ANSYS Automation",
+    "category": "Productivity",
+    "capabilities": ["ANSYS Workbench", "Mechanical", "Local MCP"],
+    "defaultPrompt": [
+      "Check my ANSYS Workbench environment.",
+      "Inspect the active Mechanical bridge state.",
+      "Create and validate a reviewed Mechanical workflow."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

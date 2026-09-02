@@ -1,0 +1,23 @@
+{
+  "name": "abaqus-cae",
+  "version": "0.1.0",
+  "description": "Control local Abaqus/CAE modeling and analysis from Codex through MCP.",
+  "author": {
+    "name": "Local Abaqus Automation"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Abaqus/CAE",
+    "shortDescription": "Build and run Abaqus models from Codex.",
+    "longDescription": "Local MCP tools for checking Abaqus, running CAE scripts, and creating a verified billiard-ball collision example.",
+    "developerName": "Local Abaqus Automation",
+    "category": "Productivity",
+    "capabilities": ["Modeling", "Simulation", "Local MCP"],
+    "defaultPrompt": [
+      "Check my local Abaqus environment.",
+      "Create a billiard-ball collision model.",
+      "Run this Abaqus/CAE automation script."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

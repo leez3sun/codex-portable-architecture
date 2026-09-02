@@ -1,0 +1,19 @@
+# Safe, optional preferences copied from the source machine.
+# Merge only the settings you want into the destination ~/.codex/config.toml.
+# Do not replace the destination file wholesale.
+
+model = "gpt-5.6-sol"
+model_reasoning_effort = "max"
+service_tier = "default"
+personality = "pragmatic"
+
+[desktop]
+conversationDetailMode = "STEPS_COMMANDS"
+ambient-suggestions-enabled = false
+followUpQueueMode = "steer"
+localeOverride = "zh-CN"
+sansFontSize = 16
+codeFontSize = 18
+open-link-in-target-preference = "external-browser"
+selected-avatar-id = "null-signal"
+enabled-reasoning-efforts = ["low", "medium", "high", "xhigh", "ultra", "max"]

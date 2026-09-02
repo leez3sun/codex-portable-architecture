@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Science Poster"
+  short_description: "Design editable scientific posters and graphics"
+  default_prompt: "Use $design-science-poster to create an editable scientific poster."

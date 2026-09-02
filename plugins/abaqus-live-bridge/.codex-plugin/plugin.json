@@ -1,0 +1,23 @@
+{
+  "name": "abaqus-live-bridge",
+  "version": "0.1.0",
+  "description": "Connect Codex to a currently running local Abaqus/CAE kernel through a localhost-only MCP bridge.",
+  "author": {
+    "name": "Local Abaqus Automation"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Abaqus Live Bridge",
+    "shortDescription": "Control the open Abaqus/CAE Python kernel.",
+    "longDescription": "A localhost bridge for status checks and explicitly requested Python execution inside the currently running Abaqus/CAE session.",
+    "developerName": "Local Abaqus Automation",
+    "category": "Productivity",
+    "capabilities": ["Abaqus/CAE", "Local MCP", "Interactive"],
+    "defaultPrompt": [
+      "Check whether my Abaqus/CAE bridge is connected.",
+      "Inspect the models in my open Abaqus/CAE session.",
+      "Run this reviewed Python snippet in Abaqus/CAE."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

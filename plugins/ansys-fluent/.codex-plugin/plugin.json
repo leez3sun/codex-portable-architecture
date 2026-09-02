@@ -1,0 +1,23 @@
+{
+  "name": "ansys-fluent",
+  "version": "0.1.0",
+  "description": "Control and diagnose local ANSYS Fluent 2024 R1 from Codex through safe MCP tools.",
+  "author": {
+    "name": "Local ANSYS Automation"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Ansys Fluent",
+    "shortDescription": "Check and drive local Fluent workflows.",
+    "longDescription": "Local tools for checking ANSYS components and licenses, testing PyFluent solver and meshing connections, opening CAD models, listing project CAD inputs, and running reviewed Fluent journals.",
+    "developerName": "Local ANSYS Automation",
+    "category": "Productivity",
+    "capabilities": ["CFD", "PyFluent", "Fluent Meshing", "SpaceClaim", "Local MCP"],
+    "defaultPrompt": [
+      "Check my local ANSYS Fluent environment.",
+      "Run the Fluent solver and meshing smoke tests.",
+      "Inspect the CAD files for my water-jacket project."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

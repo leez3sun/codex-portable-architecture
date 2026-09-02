@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "scientific-media-studio": {
+      "command": "powershell.exe",
+      "args": [
+        "-NoLogo",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${pluginRoot}\\scripts\\start-mcp.ps1"
+      ]
+    }
+  }
+}

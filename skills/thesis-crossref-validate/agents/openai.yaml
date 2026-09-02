@@ -1,0 +1,4 @@
+interface:
+  display_name: "ResearchPilot — CrossRef Validate"
+  short_description: "Free citation count and retraction check via CrossRef API (Tier 1)"
+  default_prompt: "Validate this paper's citation count and metadata using CrossRef."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ResearchPilot — OpenAlex Expand"
+  short_description: "Free literature expansion via OpenAlex citation graph (Tier 1)"
+  default_prompt: "Expand these seed papers into related work using the OpenAlex citation graph."
